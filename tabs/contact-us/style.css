@@ -1,0 +1,269 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#191919;
+    color:#ECDBBA;   
+}
+
+/* Sign In */
+.signin-container-1 {
+    --bs-gutter-x:0;
+}
+
+.modal-content-signin {
+    padding: 0px 0px !important; 
+    height: fit-content !important;
+    width: fit-content !important;
+    max-width:400px !important;
+    display:flex !important;
+    position:absolute !important;
+
+    background:none;
+    backdrop-filter: blur(3px);
+    box-shadow: 1.3rem 1rem 1rem rgb(62, 62, 62, 0.3);
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    border-radius: 8px;
+}
+
+.modal-body{
+    padding: 0px;
+}
+
+.signin-container {
+    padding: 48px 24px;
+    width: 400px;
+
+    background-image:linear-gradient(rgba(45, 66, 99, 0.485), rgba(25, 25, 25, 0.473));
+    border-radius: 8px;
+}
+
+.signin-title {
+    font-weight:500;
+    font-size: 25px;
+    line-height: 29px;
+
+    /* Brand/Indigo/Marine - #000032 */
+    color:#FFF;
+
+    margin-bottom: 41px;
+}
+
+.input-email {
+    padding: 13px 20px;
+    width: 352px;
+    height: 45px;
+
+    /* White */
+    background: rgb(62, 62, 62);
+
+    /* Brand/Indigo/Marine - #000032 */
+    border: 1.5px solid #000032;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* White/White 30 - #B3B3B3 */
+    color: #f2f2f2;
+}
+
+::placeholder {
+    color:rgb(221, 221, 221);
+}
+
+.bi-eye-fill {
+    position:relative;
+    bottom: 34px;
+    left: 325px;
+    color: #ffffff97;
+    cursor: pointer;
+
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.signin-btn {
+    padding: 16px 24px;
+    width: 352px;
+    height: 54px;
+    border-radius:8px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+    background: rgb(200, 75, 49);
+    color: #fff;
+    border: none;
+}
+
+.signin-btn:hover {
+    background: rgb(236, 219, 186);
+    color: rgb(200, 75, 49);
+    border:none;
+}
+
+.signup {
+    font-weight: 500;
+    color: rgb(236, 219, 186);
+}
+
+.signup:hover {
+    font-weight: 500;
+    color: rgb(200, 75, 49);
+}
+
+.signin-app {
+    width: 352px;
+    height: 40px;
+    padding: 0px 12px;
+
+    background: rgb(236, 219, 186);
+    border-radius: 4px;
+    font-size:16px;
+
+    color: rgb(45, 66, 99);
+}
+
+.signin-app:hover{
+    width: 352px;
+    height: 40px;
+    padding: 0px 12px;
+
+    background: rgb(200, 75, 49) !important;
+    border-radius: 6px !important;
+    font-size:16px;
+
+    color: rgb(236, 219, 186);
+}
+
+.modal-signin {
+    margin-top:65px;
+}
+
+/* Navbar */
+.nav.navbar {
+    background: #191919b1 !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);  
+    border-bottom: solid .1px rgba(221, 221, 221, 0.279);
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    color: #ECDBBA;
+    
+}
+
+.navbar-brand:hover {
+    color: #c84b31;
+}
+
+.nav-signin {
+    border-color:#ECDBBA;
+    color:#ECDBBA;
+}
+
+.nav-signin:hover {
+    background-color:#c84b31;
+    border-color:#c84b31;
+    color:#ECDBBA;
+}
+
+.nav-signin:focus, .nav-signin:active {
+    border-color:#ECDBBA;
+    color:#ECDBBA;
+}
+
+.btn-outline-light {
+    margin-right: 10px;
+}
+
+/* Contact Form */
+.mt-55 {
+    margin-top: 55px;
+}
+
+.header {
+    min-height: 80vh;
+    width: 100%;
+    background-image:linear-gradient(#31313194,#191919), url(../../tabs/contact-us/img3/bg-3.webp);
+    /* background-attachment:fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Text Box */
+.text-box {
+    width: 90%;
+    color:#ECDBBA;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+/* Breadcrumb */
+.breadcrumb:before{
+    color: #ECDBBA;
+    } 
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color:#ECDBBA;
+}
+
+.breadcrumb-item {
+    color:#ECDBBA !important;
+}
+
+.divider {
+    color:#ECDBBA !important;
+}
+
+.link {
+    color:#c84b31;
+    font-weight:600;
+}
+
+.link:hover {
+    color:#ECDBBA;
+}
+
+/*Footer */
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    text-align:left;
+    padding: 20px 20px;
+    background-color:#c84b31;
+    color:#ECDBBA;
+}
+
+.footer p {
+    padding-left: 30px;
+}
+.footer-socmed {
+    margin-right: 10px;
+}
+
+.footer ul {
+    list-style-type:none;
+    column-rule: dotted 1px #333;
+    -moz-column-count: 5;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
