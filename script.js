@@ -18,10 +18,3 @@ showPassword.addEventListener("click", function () {
     passwordField.getAttribute("type") === "password" ? "text" : "password";
   passwordField.setAttribute("type", type);
 });
-
-// Name timeout (name change)
-let elementName = document.getElementById("aniflix");
-
-setTimeout(() => {
-  document.getElementsByClassName("navbar-brand")[0].innerHTML = "a-flix";
-}, 3000);
